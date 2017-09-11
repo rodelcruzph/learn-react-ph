@@ -83,6 +83,7 @@ class App extends Component {
           <div className="an-box">
             {this.state.data.map((val, i) => <Announcement key = {i} data = {val} propOnClick={this.removeAnnouncement.bind(this, i)} /> )}
           </div>
+          <button>Add</button>
         </div>
       </div>
     );
